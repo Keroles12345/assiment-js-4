@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./sss/style.css" />
+  <link rel="stylesheet" href="./sss/bootstrap.min.css" />
+  <link rel="stylesheet" href="./sss/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="body" >
+  <div class="container mt-5  ">
+    <div class="item  w-75 m-auto d-flex flex-column p-5">
+ <div class="block text-center ">
+  <h1 class="text">Smart Login System</h1>
+ </div>
+ <div class="inputs text-white" id="roww">
+<input  oninput="addeven(this)"class="form-control signinEmail mt-3 my-2 "  id="floatingEmail"   placeholder= "Enter your email" type="text">
+<div class="alert alert-danger d-none" role="alert">
+  Invalid email. It must be in a valid format like: Example@gmail.com
+</div>
+<input  oninput="addeven(this)" class="form-control signinpassword ese my-2" id="floatingPassword" placeholder="Enter your password" type="text">
+<div class="alert alert-danger d-none" role="alert">
+  Invalid password. Ensure the password has a valid format.
+</div>
+  <button type="button" class="form-control  btn btn-outline-info loginn ">Login</button>
+</div>
+<div class="text-center">
+  <div class="doc mt-3  d-flex justify-content-center">
+  <p>Don’t have an account? <span class="sign  ">Sign Up</span> </p> 
+  </div>
+ 
+ </div>
+</div>
+    <div class="ite  w-75 m-auto  d-none flex-column p-5">
+ <div class="block text-center ">
+  <h1 class="text">Smart Login System</h1>
+ </div>
+ <div class="inputs text-white" id="roww">
+<input oninput="addeven(this) "  class="form-control signinName  mt-3 my-2" id="floatingName"  placeholder= "Enter your name" type="text">
+<div class="alert alert-danger d-none" role="alert">
+  Invalid name. The name should start with a capital letter followed by lowercase letters.
+ 
+</div>
+<input   oninput="addeven(this)" class="form-control  signinEmil my-2" id="floatingEail" placeholder= "Enter your email" type="text">
+<div class="alert alert-danger d-none" role="alert">
+  Invalid email. It must be in a valid format like: Example@gmail.com
+</div>
+<input  oninput="addeven(this)" class="form-control  signinpasword my-2" id="floatingPssword" placeholder="Enter your password" type="text">
+<div class="alert alert-danger d-none" role="alert">
+  Invalid password. Ensure the password has a valid format.
+</div>
+  <button type="button" class="form-control  btn btn-outline-info signup ">sign up</button>
+</div>
+<div class="text-center">
+  <div class="doc mt-3  d-flex justify-content-center">
+  <p>Don’t have an account? <span class="login  ">signin</span> </p> 
+  </div>
+ 
+ </div>
+</div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

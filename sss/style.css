@@ -1,0 +1,117 @@
+.body{
+   background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.item{
+   background: #24353f;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ite{
+   background: #24353f;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.block h1{
+   color: #17a2b8;
+   font-size: 2.5rem;
+   margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.signinpasword{
+   background-color: rgba(240, 248, 255, 0)!important;
+   color: white !important;
+   cursor: pointer;
+}
+
+.signinpasword::placeholder{
+   color: white !important;
+}
+.signinpasword:focus{
+   border:      #80bdff 2px solid;
+   box-shadow: none !important;
+   
+}
+.signinEmail{
+   background-color: rgba(240, 248, 255, 0)!important;
+   color: white !important;
+   cursor: pointer;
+}
+
+.signinEmail::placeholder{
+   color: white !important;
+}
+.signinEmail:focus{
+   border:      #80bdff 2px solid;
+   box-shadow: none !important;
+   
+}
+.signinName{
+   background-color: rgba(240, 248, 255, 0)!important;
+   color: white !important;
+   cursor: pointer;
+}
+
+.signinName::placeholder{
+   color: white !important;
+}
+.signinName:focus{
+   border:      #80bdff 2px solid;
+   box-shadow: none !important;
+   
+}
+.signinEmil{
+   background-color: rgba(240, 248, 255, 0)!important;
+   color: white !important;
+   cursor: pointer;
+}
+
+.signinEmil::placeholder{
+   color: white !important;
+}
+.signinEmil:focus{
+   border:      #80bdff 2px solid;
+   box-shadow: none !important;
+   
+}
+.ese{
+   background-color: rgba(240, 248, 255, 0)!important;
+   color: white !important;
+   cursor: pointer;
+}
+
+.ese::placeholder{
+   color: white !important;
+}
+.ese:focus{
+   border:      #80bdff 2px solid;
+   box-shadow: none !important;
+   
+}
+
+
+p{
+   color: #fff !important;
+   margin-top: 0;
+    margin-bottom: 1rem;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   unicode-bidi: isolate;
+}
+.sign:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+.login:hover{
+
+   text-decoration: underline;
+   cursor: pointer;
+}
+.alert{
+   padding: 10px !important;
+margin-top: 0px !important;
+
+}

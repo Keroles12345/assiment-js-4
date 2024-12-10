@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sss/sylal.css" />
+  <link rel="stylesheet" href="./sss/bootstrap.min.css" />
+  <link rel="stylesheet" href="./sss/all.min.css" />
+    <title>New Page</title>
+</head>
+<body class="body" >
+    <div id="output"  class="dsl"></div>
+    <button type="button" class="btn btn-danger position-absolute sls me-2">log out</button>
+
+    <script src="indess.js">
+      
+        // استخراج القيمة من معلمات الرابط
+        var params = new URLSearchParams(window.location.search);
+        var userName = params.get("name");
+
+        // عرضها في العنصر
+        if (userName) {
+            document.getElementById("output").textContent = userName;
+        } else {
+            document.getElementById("output").textContent = "No name found!";
+        }
+    </script>
+</body>
+</html>
+
